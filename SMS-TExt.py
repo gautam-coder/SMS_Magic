@@ -77,8 +77,8 @@ class eMail:
 
 
 ######ITS for the Mail Setup because Smtp is used to get the setup of the account and due to security reason I am not Sharing the my account Details
-setup_email=input()
-setup_password=input()
+setup_email=input('Email ID:- ')
+setup_password=input('App password:- ')
 
 
 if  __name__ == '__main__':
